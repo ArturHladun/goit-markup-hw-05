@@ -561,7 +561,6 @@ font-family: "Raleway", sans-serif;
 }
 
 .footer-soc-container {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 
