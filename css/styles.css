@@ -774,7 +774,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .modal-field {
-    margin-bottom: 24px;
+    margin-bottom: 8px;
 }
 
 .modal-input-wrap {
@@ -882,6 +882,8 @@ font-family: "Raleway", sans-serif;
         display: flex;
         align-items: center;
 
+
+
 }
 
 .modal-check {
@@ -889,7 +891,9 @@ font-family: "Raleway", sans-serif;
         border: 1px solid #2E2F4266;
         margin-top: 16px;
         padding-right: 8px;
-        margin-bottom: 24px;;
+        margin-bottom: 24px;
+
+
 }
 
 .privacy-policy-text {
@@ -899,11 +903,12 @@ font-family: "Raleway", sans-serif;
         color: #4D5AE5;
                 margin-left: 4px;
 
+
 }
 
 .user-privacy-icon {
     display: inline-flex;
-border-radius: 2px;
+    border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
         margin-right: 8px;
         width: 16px;
@@ -911,10 +916,7 @@ border-radius: 2px;
         align-items: center;
         justify-content: center;
         fill: transparent;
-        background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-            fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-            transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-check:checked + .check-text span {
