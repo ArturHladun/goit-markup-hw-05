@@ -782,6 +782,14 @@ font-family: "Raleway", sans-serif;
     margin-bottom: 8px;
 }
 
+.modal-text-area-wrap {
+    margin-bottom: 16px;
+}
+
+.modal-checkbox-wrap {
+    margin-bottom: 24px;
+}
+
 .modal-input {
     border: 1px solid #2E2F4266;
         border-radius: 4px;
@@ -800,6 +808,8 @@ font-family: "Raleway", sans-serif;
 .modal-input:focus + .modal-field-icon {
     fill: #4D5AE5;
 }
+
+
 
 .modal-label {
     display: block;
@@ -879,7 +889,6 @@ font-family: "Raleway", sans-serif;
         line-height: 117%;
         letter-spacing: 0.04em;
         color: #8E8F99;
-        display: flex;
         align-items: center;
 
 
